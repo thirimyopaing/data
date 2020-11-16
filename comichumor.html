@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comic list</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="testing.css">
+  <link rel="stylesheet" type="text/css" href="mdbootstrap/css/mdb.min.css">
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<!-- <div class="fixed-top"> -->
+  <div id="photo">
+  <img src="img/10.jpg">
+  </div>
+
+
+  <!-- nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <a class="navbar-brand" href="#" id="batman">Comic Addict</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="testing.html">Home </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Comic list</a>
+      </li>
+       
+       <li class="nav-item ">
+        <a class="nav-link" href="#">Latest release</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="news.html">News</a>
+      </li>
+
+      <li class="nav-item " id="navright">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item " >
+        <a class="nav-link" href="#">Contact</a>
+      </li> 
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 btn-outline-danger" id="outred" type="search" placeholder="type to search..." aria-label="Search">
+      <button class="btn btn-danger my-2 my-sm-0" id="red" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-- Best Comic of all time -->
+    <div class="container my-5 py-4">
+      <h3 class="text-center product_style" id="big">- Comic List -</h3><br>
+
+      <div class="buttonmid">
+      <a href="comic.html"><button type="button" class="btn btn-light">All</button></a>
+      <a href="comichero.html"><button type="button" class="btn btn-light">Superhero</button></a>
+      <a href="comicmanga.html"><button type="button" class="btn btn-light">Manga</button></a>
+      <a href="comicslice.html"><button type="button" class="btn btn-light">Slice of life</button></a>
+      <a href="comichumor.html"><button type="button" class="btn btn-dark active">Humor</button></a>
+      <a href="comicnon.html"><button type="button" class="btn btn-light">Non-fiction</button></a>
+      <a href="comicscifi.html"><button type="button" class="btn btn-light">Sci-fi/Fantasy</button></a>
+      <a href="comichorror.html"><button type="button" class="btn btn-light">Horror</button></a>
+    </div>
+
+<!-- ................................................................................................................. -->
+      <div class="row mt-5">
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center">
+          <img src="img/64.jpg" class="img-fluid rounded column6">
+          <h5 class="mt-4" id="tiny"> 3 Stepbrothers</h5>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#humor1">
+            Details</button>
+          <!-- Modal -->
+          <div class="modal fade " id="humor1" id="customfont" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title customfont" id="exampleModalLabel">3 Stepbrothers</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body sizze">
+                <img src="img/64.jpg" class="photogg">
+                <div class="sizze">
+                <span><b>Art by:</b> Aimie Alford</span><br>
+                <span><b>Written by:</b>Jackson Moon</span><br>
+                <span><b>Published:</b>Sep 05, 2020</span><br> 
+                <b class="green">Price: 40$</b>  
+                </div><br>
+                <div class="leftleft">
+                 Tori lived with her dad and little sister. She never expected to have a stepmother,  much less a stepbrother. But whats worse is not only one stepbrother, not two either. No three stepbrothers. But it gets worse, the three boys just happen to be the three triplet sport stars of the school. The same three boys that have gone out with nearly all those girls that wear short short skirts. The same three boys that are known as 'The Parris Sport Brothers.' What happens when the four are mixed together and agree not to tell anyone that there brothers? What happens when the four are forced to get to know each other? What happens when they have to learn to live with each other? After all its just one year right. All of them heading to college next year. Just one year right? One hectic year of broken hearts, sibling feuds and bonding, of out of nowhere events. Read the book to find out what happens to Tori.</h5>
+                </div>
+              </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-dismiss="modal">+ Add to Cart</button>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center">
+          <img src="img/65.jpg" class="img-fluid rounded column6">
+          <h5 class="mt-4" id="tiny">How to Fall in Love  </h5> 
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#humor2">
+            Details</button>
+
+          <!-- Modal -->
+          <div class="modal fade " id="humor2" id="customfont" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title customfont" id="exampleModalLabel">How to Fall in Love </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body sizze">
+                <img src="img/65.jpg" class="photogg">
+                <div class="sizze">
+                <span><b>Art by:</b> Dimitri French</span><br>
+                <span><b>Written by:</b>Macy Thorne</span><br>
+                <span><b>Published:</b>October 22, 2020</span><br> 
+                <b class="green">Price: 40$</b> 
+                </div><br>
+                <div class="leftleft">
+                 They're worlds apart, and this isn't high school, so how the hell did a homeless female writer end up renting a billionaire's mansion? And - hold your breath - becoming his fake girlfriend?</h5>
+                </div>
+              </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-dismiss="modal">+ Add to Cart</button>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>        
+        </div>
+        
+
+
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center">
+          <img src="img/66.jpg" class="img-fluid rounded column6">
+          <h5 class="mt-4" id="tiny">The Cell Phone Swap</h5>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#humor3">
+            Details</button>
+
+          <!-- Modal -->
+          <div class="modal fade " id="humor3" id="customfont" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title customfont" id="exampleModalLabel">The Cell Phone Swap</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body sizze">
+                <img src="img/66.jpg" class="photogg">
+                <div class="sizze">
+                <span><b>Art by:</b> Caden Battle</span><br>
+                <span><b>Written by:</b>Rhianna Dunlap</span><br>
+                <span><b>Published:</b>Nov 08, 2020</span><br> 
+                <b class="green">Price: 35$</b> 
+
+                </div><br>
+                <div class="leftleft">
+                 Keeley accidentally swaps cell phones with a rivaling high school's star quarterback. Unable to switch back until a week later, she must interact with the arrogant boy, passing along texts and voicemails. As she gets to know him better, she realizes there's more to him than sexual innuendos and egotistical comments. But when identities are revealed and secrets are exposed, will Keeley's feelings remain?</h5>
+                </div>
+              </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-dismiss="modal">+ Add to Cart</button>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center">
+          <img src="img/67.jpg" class="img-fluid rounded column6">
+          <h5 class="mt-4" id="tiny">Illegal My Ass</h5>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#humor4">
+            Details</button>
+
+          <!-- Modal -->
+          <div class="modal fade " id="humor4" id="customfont" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title customfont" id="exampleModalLabel">Illegal My Ass</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body sizze">
+                <img src="img/67.jpg" class="photogg">
+                <div class="sizze">
+                <span><b>Art by:</b> Sarina David</span><br>
+                <span><b>Written by:</b>Paris Stamp</span><br>
+                <span><b>Published:</b>June 28, 2019</span><br>
+                <b class="green">Price: 40$</b> 
+
+                </div><br>
+                <div class="leftleft">
+                 Mia Hastings was never one to follow the rules. Her brother knew it, her best friend knew it. Everyone knew it. She lives for the moment, doing whatever she feels and thinking of the consequences later. Her main goal in life is to live it. Mia’s brother’s best friend Drake O’Connell was never big on rules.The judge who sentences him to 2 years in prison knew it.  He is known for being the badboy, partying and womanising. His charm, good looks and obnoxious behaviour made his life pretty easy and his main goal in it was to have fun. He had lost 2 years of his life locked up, so he was determined to make up for lost time.So when these two people are thrown together, both without a care in the world, issues of their own and more secrets than an episode of Pretty Little Liars, you can expect a story full of laughs, tears, arguments and felonies.They might be breaking the law, but both Mia and Drake are about to find out that when it feels wrong, it is ALWAYS more fun.</h5>
+                </div>
+              </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-dismiss="modal">+ Add to Cart</button>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>         
+        </div>
+
+
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center">
+          <img src="img/69.jpg" class="img-fluid rounded column6">
+          <h5 class="mt-4" id="tiny"> Sour patch</h5> 
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#humor5">
+            Details</button>
+
+          <!-- Modal -->
+          <div class="modal fade " id="humor5" id="customfont" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title customfont" id="exampleModalLabel">Sour patch</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body sizze">
+                <img src="img/69.jpg" class="photogg">
+                <div class="sizze">
+                <span><b>Art by:</b> Alana Ridley</span><br>
+                <span><b>Written by:</b>Reuben Howe</span><br>
+                <span><b>Published:</b>October 15, 2020</span><br>
+                <b class="green">Price: 30$</b> 
+
+                </div><br>
+                <div class="leftleft">
+                Sophia will do anything to escape an arranged marriage to the arrogant billionaire, Enrique Monteiro, but he has more control than she knows.Enrique Monteiro, a powerful Brazilian billionaire, has gotten everything he wanted in life. He has looks, wealth, power, and women. He travels in his private jet to negotiate business deals all over the globe. His godly looks and reserved attitude makes seems to pull women in. With just a snap of his fingers, he can get everything he's ever wanted. Everything except Sophia Castello.</h5>
+                </div>
+              </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-dismiss="modal">+ Add to Cart</button>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>        
+        </div>
+
+
+        <div class="col-sm-6 col-md-4 col-lg-2 text-center">
+          <img src="img/70.jpg" class="img-fluid rounded column6">
+          <h5 class="mt-4" id="tiny">Eve</h5>  
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#humor6">
+            Details</button>
+
+          <!-- Modal -->
+          <div class="modal fade " id="humor6" id="customfont" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title customfont" id="exampleModalLabel">Eve</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body sizze">
+                <img src="img/70.jpg" class="photogg">
+                <div class="sizze">
+                <span><b>Art by:</b> Sanya Atkins</span><br>
+                <span><b>Written by:</b>Kierran Bennett</span><br>
+                <span><b>Published:</b>Feb 05, 2020</span><br> 
+                <b class="green">Price: 30$</b>  
+                </div><br>
+                <div class="leftleft">
+                 Eve's a vegan zombie, and she really doesn't care what you think of it, so shush it. All she wants is to get by and find some pigeons or a fat rat - anything without a name she can eat before she starves to death in What's-Left-of-Los-Angeles, California. Because I don't care what you say, she's NOT eating humans. It's gross.Levon's weird and has a funny voice. Or maybe it just sounds funny when he hears it. Everyone's voice is funny when they hear it recorded, right? Anyway, he's like one of the only people who haven't turned into a zombie since the outbreak, and even he has no idea how that happened. He thinks it's gross to eat people too. But he also thinks it's gross to eat pigeons and rats, so there's that.And now that they've found each other in the wasteland, Levon's plan is to carry Eve with him across the country to the army shelter in New York that totally exists and will save them both. Eve's plan is keep her eyes from rolling into her skull every time Levon opens his mouth.</h5>
+                </div>
+              </div>
+                <div class="modal-footer">
+                   <button type="button" class="btn btn-success" data-dismiss="modal">+ Add to Cart</button>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>       
+        </div>
+      </div>
+        
+        
+
+       
+
+
+        
+      </div>
+    </div>
+
+<hr class="divide">
+
+
+
+
+
+<!-- footer -->
+    <div class="card text-white bg-dark mb-3"  style="max-width: 100rem;">
+        <div class="card-header" id="batmanfoot">Comic Addict</div>
+        <div class="card-body"> 
+          <h5 class="card-title footerfont">Follow us on Social Media:   
+            <i class='bx bxl-facebook-circle iconcustom'></i>
+            <i class='bx bxl-instagram-alt iconcustom' ></i>
+            <i class='bx bxl-twitter iconcustom' ></i>
+            <i class='bx bxl-youtube iconcustom' ></i>
+            <i class='bx bxl-pinterest iconcustom'></i>
+          </h5>
+          <p class="card-title footerfont1">
+          All Site Content TM and © 2020 Comic Addict, unless otherwise noted here.@All rights reserved.</p>
+
+        </div>
+    </div>
+
+  <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
